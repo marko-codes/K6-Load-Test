@@ -3,6 +3,11 @@ Load, Stress, Spike, Soak Tests written in  K6
 
 API load testing is a type of backend performance testing used to assess an application programming interface's performance under varied load conditions. It is used to determine an API's overall performance as well as its capability of responding to concurrent queries from high numbers of virtual users.
 
+We can save the results in CSV format and then create visuals, and also compare with next iterations of this test.
+
+Command to run: k6 run --out csv=load_test_results.csv load_test.js
+
+
 # Load Test
 
 First test to get benchmarks of the system.
